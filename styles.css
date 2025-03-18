@@ -30,6 +30,10 @@
 .nav-link.active::after {
     width: 100%;
 }
+.dropdown-menu {
+    border: none;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+}
 
 /* Custom CSS for Bootstrap Enhancements */
 .hero-section {
