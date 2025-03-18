@@ -50,6 +50,18 @@
     }
 }
 
+/* Custom CSS for Homepage */
+#headhomepage{
+    text-align: center;
+    color: #f8f9fa;
+    font-style: italic;
+    font-size:xx-large;
+    font-weight:900;
+}
+#subheadhomepage{
+    color: #f8f9fa;
+}
+
 /* Custom CSS for Bootstrap Enhancements */
 .hero-section {
     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
