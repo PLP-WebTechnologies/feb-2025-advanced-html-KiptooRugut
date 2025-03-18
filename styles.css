@@ -1,3 +1,14 @@
+/* Navbar Customization */
+.navbar {
+    padding: 0.8rem 0;
+    transition: all 0.3s ease;
+}
+
+.navbar-brand {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
 /* Custom CSS for Bootstrap Enhancements */
 .hero-section {
     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
