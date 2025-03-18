@@ -35,6 +35,21 @@
     box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
 }
 
+/* Mobile Menu Adjustments */
+@media (max-width: 991px) {
+    .nav-buttons {
+        margin-top: 1rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .navbar-collapse {
+        padding: 1rem 0;
+    }
+}
+
 /* Custom CSS for Bootstrap Enhancements */
 .hero-section {
     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
