@@ -1,0 +1,13 @@
+/* Custom CSS for Bootstrap Enhancements */
+.hero-section {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+                url('https://images.pexels.com/photos/450035/pexels-photo-450035.jpeg') center/cover;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.registration-card {
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15)!important;
+    border: none;
+}
