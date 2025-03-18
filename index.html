@@ -66,9 +66,81 @@
                         <td>555-0123</td>
                         <td>mambet@example.co.ke</td>
                     </tr>
-                    <!-- Add more rows -->
+                    <!-- Add more rows if possible-->
                 </tbody>
             </table>
+        </div>
+    </section>
+
+     <!-- Registration Form -->
+     <section class="registration-card card mb-5">
+        <div class="card-body p-4">
+            <h2 class="mb-4">Registration Form</h2>
+            <form class="row g-3">
+                <!-- Personal Info -->
+                <div class="col-md-6">
+                    <label class="form-label">Full Name</label>
+                    <input type="text" class="form-control" 
+                           placeholder="John Smith" required>
+                </div>
+
+                <div class="col-md-6">
+                    <label class="form-label">Email</label>
+                    <input type="email" class="form-control" 
+                           placeholder="john@example.com" required>
+                </div>
+
+                <div class="col-md-6">
+                    <label class="form-label">Password</label>
+                    <input type="password" class="form-control" 
+                           minlength="8" required>
+                </div>
+
+                <div class="col-md-6">
+                    <label class="form-label">Birth Date</label>
+                    <input type="date" class="form-control" required>
+                </div>
+
+                <!-- Additional Info -->
+                <div class="col-md-6">
+                    <label class="form-label">Country</label>
+                    <select class="form-select" required>
+                        <option value="">Choose...</option>
+                        <option>United States</option>
+                        <option>United Kingdom</option>
+                        <option>Canada</option>
+                    </select>
+                </div>
+
+                <div class="col-md-6">
+                    <label class="form-label d-block">Gender</label>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" 
+                               name="gender" id="male" required>
+                        <label class="form-check-label" for="male">Male</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" 
+                               name="gender" id="female">
+                        <label class="form-check-label" for="female">Female</label>
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" required>
+                        <label class="form-check-label">
+                            Agree to terms and conditions
+                        </label>
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary px-4">
+                        Register Now
+                    </button>
+                </div>
+            </form>
         </div>
     </section>
 
