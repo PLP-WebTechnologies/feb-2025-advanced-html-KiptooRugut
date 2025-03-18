@@ -21,3 +21,9 @@
     transform: translateX(5px);
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
+
+/* Custom Roman Numeral List */
+ol.roman-list {
+    list-style-type: upper-roman;
+    padding-left: 2rem;
+}
