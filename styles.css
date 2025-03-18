@@ -46,3 +46,11 @@ ol.roman-list {
     transform: translateY(-2px);
     color: white;
 }
+footer a {
+    transition: all 0.3s ease;
+}
+
+footer a:hover {
+    color: #20c997 !important;
+    transform: translateY(-2px);
+}
